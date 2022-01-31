@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+LS_COLORS=$LS_COLORS:'di=0;36:' ; export LS_COLORS
