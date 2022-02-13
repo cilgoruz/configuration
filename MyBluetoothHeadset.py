@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+#This file was copied from this link "https://github.com/TheWeirdDev/Bluetooth_Headset_Battery_Level"
+
 """
 A python library to get battery level from Bluetooth headsets
 """
@@ -147,7 +149,7 @@ class BatteryStateQuerier:
 
 def main():
 
-  query = BatteryStateQuerier("5C:FB:7C:57:98:57")
+  query = BatteryStateQuerier("5C:FB:7C:57:98:57") # My device address
   print("Battery level " + str(query))
 
 if __name__ == "__main__":
